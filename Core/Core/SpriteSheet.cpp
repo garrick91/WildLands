@@ -123,6 +123,6 @@ void SpriteSheet::DrawAnimation(float x, float y)
 		D2D1::RectF(x, y, x + spriteWidth, y + bmp->GetSize().height),
 		1.0f,
 		D2D1_BITMAP_INTERPOLATION_MODE::D2D1_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR,
-		D2D1::RectF((float)frame * spriteWidth, 0, (float)(frame * spriteWidth + spriteWidth), bmp->GetSize().height) //destination rect //source rect
+		D2D1::RectF((float)frame * spriteWidth, 0, (float)(frame * spriteWidth + spriteWidth), bmp->GetSize().height)
 	);
 }
