@@ -11,8 +11,8 @@ int Text::InitText() {
 
 void Text::CreateTextFormat() {
 	HRESULT hr = writeFactory->CreateTextFormat(
-		L"Gabriola",                // Font family name.
-		NULL,                       // Font collection (NULL sets it to use the system font collection).
+		L"Gabriola",                
+		NULL,                     
 		DWRITE_FONT_WEIGHT_REGULAR,
 		DWRITE_FONT_STYLE_NORMAL,
 		DWRITE_FONT_STRETCH_NORMAL,
@@ -56,11 +56,11 @@ void Text::Drawtext(int x, int y, ID2D1RenderTarget* rt, wchar_t * _text)
 		static_cast<FLOAT>(y + 15)
 	);
 	rt->DrawText(
-		_text,        // The string to render.
-		lenght,    // The string's length.
-		textFormat,    // The text format.
-		layoutRect,       // The region of the window where the text will be rendered.
-		blackBrush     // The brush used to draw the text.
+		_text,      
+		lenght,   
+		textFormat,    
+		layoutRect,    
+		blackBrush    
 	);
 
 }
