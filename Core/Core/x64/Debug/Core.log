@@ -1,0 +1,32 @@
+﻿  SocialStructure.cpp
+  Social.cpp
+  SettlementInfo.cpp
+  Main.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\json.hpp(8559): warning C4003: не хватает фактических параметров для макроопределения "max"
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\json.hpp(8565): warning C4003: не хватает фактических параметров для макроопределения "max"
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\json.hpp(8559): error C2589: (: недопустимая лексема справа от "::"
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\json.hpp(8532): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\json.hpp(8872): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator>::lexer::get_number(nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator> &) const"
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\json.hpp(8892): note: см. ссылку на создание экземпляров класса шаблон при компиляции "nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator>::lexer"
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\json.hpp(5837): note: см. ссылку на создание экземпляров класса шаблон при компиляции "nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator>::parser"
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\json.hpp(5836): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\json.hpp(9568): note: см. ссылку на создание экземпляров функции шаблон при компиляции "nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator> nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator>::parse(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,std::function<bool (int,nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator>::parse_event_t,nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator> &)>)"
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(666): note: см. ссылку на создание экземпляров класса шаблон при компиляции "nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator>"
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(695): note: см. ссылку на создание экземпляров класса шаблон при компиляции "std::is_nothrow_constructible<_Ty,nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator> &&>"
+          with
+          [
+              _Ty=nlohmann::json
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\json.hpp(9529): note: см. ссылку на создание экземпляров класса шаблон при компиляции "std::is_nothrow_move_constructible<nlohmann::json>"
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\json.hpp(8559): error C2059: синтаксическая ошибка: ::
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\json.hpp(8559): error C2143: синтаксическая ошибка: отсутствие "(" перед "::"
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\json.hpp(8565): error C2589: (: недопустимая лексема справа от "::"
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\json.hpp(8565): error C2059: синтаксическая ошибка: ::
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\json.hpp(8565): error C2143: синтаксическая ошибка: отсутствие "(" перед "::"
+  Enviroment.cpp
+  EconomicStructure.cpp
+  Создание кода...
+  Пропуск... (изменения не обнаружены)
+  ProvisionStructure.cpp
+  Map.cpp
+  Block.cpp

@@ -1,0 +1,209 @@
+﻿  SettlementInfo.cpp
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(59): warning C4005: D2DERR_WRONG_STATE: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50511): note: см. предыдущее определение "D2DERR_WRONG_STATE"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(64): warning C4005: D2DERR_NOT_INITIALIZED: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50520): note: см. предыдущее определение "D2DERR_NOT_INITIALIZED"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(69): warning C4005: D2DERR_UNSUPPORTED_OPERATION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50529): note: см. предыдущее определение "D2DERR_UNSUPPORTED_OPERATION"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(74): warning C4005: D2DERR_SCANNER_FAILED: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50538): note: см. предыдущее определение "D2DERR_SCANNER_FAILED"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(79): warning C4005: D2DERR_SCREEN_ACCESS_DENIED: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50547): note: см. предыдущее определение "D2DERR_SCREEN_ACCESS_DENIED"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(84): warning C4005: D2DERR_DISPLAY_STATE_INVALID: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50556): note: см. предыдущее определение "D2DERR_DISPLAY_STATE_INVALID"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(89): warning C4005: D2DERR_ZERO_VECTOR: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50565): note: см. предыдущее определение "D2DERR_ZERO_VECTOR"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(97): warning C4005: D2DERR_INTERNAL_ERROR: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50574): note: см. предыдущее определение "D2DERR_INTERNAL_ERROR"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(103): warning C4005: D2DERR_DISPLAY_FORMAT_NOT_SUPPORTED: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50583): note: см. предыдущее определение "D2DERR_DISPLAY_FORMAT_NOT_SUPPORTED"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(108): warning C4005: D2DERR_INVALID_CALL: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50592): note: см. предыдущее определение "D2DERR_INVALID_CALL"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(113): warning C4005: D2DERR_NO_HARDWARE_DEVICE: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50601): note: см. предыдущее определение "D2DERR_NO_HARDWARE_DEVICE"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(119): warning C4005: D2DERR_RECREATE_TARGET: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50610): note: см. предыдущее определение "D2DERR_RECREATE_TARGET"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(124): warning C4005: D2DERR_TOO_MANY_SHADER_ELEMENTS: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50619): note: см. предыдущее определение "D2DERR_TOO_MANY_SHADER_ELEMENTS"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(129): warning C4005: D2DERR_SHADER_COMPILE_FAILED: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50628): note: см. предыдущее определение "D2DERR_SHADER_COMPILE_FAILED"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(134): warning C4005: D2DERR_MAX_TEXTURE_SIZE_EXCEEDED: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50637): note: см. предыдущее определение "D2DERR_MAX_TEXTURE_SIZE_EXCEEDED"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(139): warning C4005: D2DERR_UNSUPPORTED_VERSION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50646): note: см. предыдущее определение "D2DERR_UNSUPPORTED_VERSION"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(144): warning C4005: D2DERR_BAD_NUMBER: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50655): note: см. предыдущее определение "D2DERR_BAD_NUMBER"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(149): warning C4005: D2DERR_WRONG_FACTORY: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50664): note: см. предыдущее определение "D2DERR_WRONG_FACTORY"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(154): warning C4005: D2DERR_LAYER_ALREADY_IN_USE: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50673): note: см. предыдущее определение "D2DERR_LAYER_ALREADY_IN_USE"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(159): warning C4005: D2DERR_POP_CALL_DID_NOT_MATCH_PUSH: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50682): note: см. предыдущее определение "D2DERR_POP_CALL_DID_NOT_MATCH_PUSH"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(164): warning C4005: D2DERR_WRONG_RESOURCE_DOMAIN: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50691): note: см. предыдущее определение "D2DERR_WRONG_RESOURCE_DOMAIN"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(169): warning C4005: D2DERR_PUSH_POP_UNBALANCED: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50700): note: см. предыдущее определение "D2DERR_PUSH_POP_UNBALANCED"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(174): warning C4005: D2DERR_RENDER_TARGET_HAS_LAYER_OR_CLIPRECT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50709): note: см. предыдущее определение "D2DERR_RENDER_TARGET_HAS_LAYER_OR_CLIPRECT"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(179): warning C4005: D2DERR_INCOMPATIBLE_BRUSH_TYPES: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50718): note: см. предыдущее определение "D2DERR_INCOMPATIBLE_BRUSH_TYPES"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(184): warning C4005: D2DERR_WIN32_ERROR: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50727): note: см. предыдущее определение "D2DERR_WIN32_ERROR"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(189): warning C4005: D2DERR_TARGET_NOT_GDI_COMPATIBLE: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50736): note: см. предыдущее определение "D2DERR_TARGET_NOT_GDI_COMPATIBLE"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(194): warning C4005: D2DERR_TEXT_EFFECT_IS_WRONG_TYPE: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50745): note: см. предыдущее определение "D2DERR_TEXT_EFFECT_IS_WRONG_TYPE"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(201): warning C4005: D2DERR_TEXT_RENDERER_NOT_RELEASED: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50754): note: см. предыдущее определение "D2DERR_TEXT_RENDERER_NOT_RELEASED"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DErr.h(206): warning C4005: D2DERR_EXCEEDS_MAX_BITMAP_SIZE: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50763): note: см. предыдущее определение "D2DERR_EXCEEDS_MAX_BITMAP_SIZE"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(12): warning C4005: DXGI_STATUS_OCCLUDED: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50092): note: см. предыдущее определение "DXGI_STATUS_OCCLUDED"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(13): warning C4005: DXGI_STATUS_CLIPPED: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50101): note: см. предыдущее определение "DXGI_STATUS_CLIPPED"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(14): warning C4005: DXGI_STATUS_NO_REDIRECTION: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50110): note: см. предыдущее определение "DXGI_STATUS_NO_REDIRECTION"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(15): warning C4005: DXGI_STATUS_NO_DESKTOP_ACCESS: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50119): note: см. предыдущее определение "DXGI_STATUS_NO_DESKTOP_ACCESS"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(16): warning C4005: DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50128): note: см. предыдущее определение "DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(17): warning C4005: DXGI_STATUS_MODE_CHANGED: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50137): note: см. предыдущее определение "DXGI_STATUS_MODE_CHANGED"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(18): warning C4005: DXGI_STATUS_MODE_CHANGE_IN_PROGRESS: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50146): note: см. предыдущее определение "DXGI_STATUS_MODE_CHANGE_IN_PROGRESS"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(21): warning C4005: DXGI_ERROR_INVALID_CALL: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50161): note: см. предыдущее определение "DXGI_ERROR_INVALID_CALL"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(22): warning C4005: DXGI_ERROR_NOT_FOUND: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50170): note: см. предыдущее определение "DXGI_ERROR_NOT_FOUND"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(23): warning C4005: DXGI_ERROR_MORE_DATA: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50179): note: см. предыдущее определение "DXGI_ERROR_MORE_DATA"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(24): warning C4005: DXGI_ERROR_UNSUPPORTED: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50188): note: см. предыдущее определение "DXGI_ERROR_UNSUPPORTED"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(25): warning C4005: DXGI_ERROR_DEVICE_REMOVED: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50197): note: см. предыдущее определение "DXGI_ERROR_DEVICE_REMOVED"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(26): warning C4005: DXGI_ERROR_DEVICE_HUNG: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50206): note: см. предыдущее определение "DXGI_ERROR_DEVICE_HUNG"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(27): warning C4005: DXGI_ERROR_DEVICE_RESET: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50216): note: см. предыдущее определение "DXGI_ERROR_DEVICE_RESET"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(28): warning C4005: DXGI_ERROR_WAS_STILL_DRAWING: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50225): note: см. предыдущее определение "DXGI_ERROR_WAS_STILL_DRAWING"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(29): warning C4005: DXGI_ERROR_FRAME_STATISTICS_DISJOINT: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50235): note: см. предыдущее определение "DXGI_ERROR_FRAME_STATISTICS_DISJOINT"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(30): warning C4005: DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50244): note: см. предыдущее определение "DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(31): warning C4005: DXGI_ERROR_DRIVER_INTERNAL_ERROR: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50254): note: см. предыдущее определение "DXGI_ERROR_DRIVER_INTERNAL_ERROR"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(32): warning C4005: DXGI_ERROR_NONEXCLUSIVE: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50263): note: см. предыдущее определение "DXGI_ERROR_NONEXCLUSIVE"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(33): warning C4005: DXGI_ERROR_NOT_CURRENTLY_AVAILABLE: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50272): note: см. предыдущее определение "DXGI_ERROR_NOT_CURRENTLY_AVAILABLE"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(34): warning C4005: DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50282): note: см. предыдущее определение "DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(35): warning C4005: DXGI_ERROR_REMOTE_OUTOFMEMORY: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50291): note: см. предыдущее определение "DXGI_ERROR_REMOTE_OUTOFMEMORY"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(608): warning C4005: D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50445): note: см. предыдущее определение "D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS"
+c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(609): warning C4005: D3D10_ERROR_FILE_NOT_FOUND: изменение макроопределения
+  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h(50454): note: см. предыдущее определение "D3D10_ERROR_FILE_NOT_FOUND"
+c:\users\гаррик\onedrive\документы\диплом\core\core\jsoncons/json_parser.hpp(141): warning C4003: не хватает фактических параметров для макроопределения "max"
+c:\users\гаррик\onedrive\документы\диплом\core\core\Enviroment.h(45): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\Enviroment.h(62): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\Enviroment.h(78): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\Enviroment.h(94): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\Enviroment.h(110): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\Enviroment.h(127): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\Enviroment.h(144): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\Enviroment.h(160): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\Enviroment.h(175): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\Enviroment.h(186): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\гаррик\onedrive\документы\диплом\core\core\SocialStructure.h(630): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  c:\users\гаррик\onedrive\документы\диплом\core\core\SocialStructure.h(630): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  SettlementInfo.cpp(86): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Grave<SettlementInfo>"
+c:\users\гаррик\onedrive\документы\диплом\core\core\SocialStructure.h(630): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\SocialStructure.h(500): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  c:\users\гаррик\onedrive\документы\диплом\core\core\SocialStructure.h(500): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  SettlementInfo.cpp(85): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Tavern<SettlementInfo>"
+c:\users\гаррик\onedrive\документы\диплом\core\core\SocialStructure.h(500): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\SocialStructure.h(371): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  c:\users\гаррик\onedrive\документы\диплом\core\core\SocialStructure.h(371): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  SettlementInfo.cpp(84): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Outpost<SettlementInfo>"
+c:\users\гаррик\onedrive\документы\диплом\core\core\SocialStructure.h(371): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\SocialStructure.h(241): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  c:\users\гаррик\onedrive\документы\диплом\core\core\SocialStructure.h(241): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  SettlementInfo.cpp(83): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Church<SettlementInfo>"
+c:\users\гаррик\onedrive\документы\диплом\core\core\SocialStructure.h(241): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\SocialStructure.h(38): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  c:\users\гаррик\onedrive\документы\диплом\core\core\SocialStructure.h(38): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  SettlementInfo.cpp(82): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Dugout<SettlementInfo>"
+c:\users\гаррик\onedrive\документы\диплом\core\core\SocialStructure.h(38): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\ProvisionStructure.h(739): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  c:\users\гаррик\onedrive\документы\диплом\core\core\ProvisionStructure.h(739): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  SettlementInfo.cpp(80): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Brewery<SettlementInfo>"
+c:\users\гаррик\onedrive\документы\диплом\core\core\ProvisionStructure.h(739): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\ProvisionStructure.h(608): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  c:\users\гаррик\onedrive\документы\диплом\core\core\ProvisionStructure.h(608): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  SettlementInfo.cpp(79): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Bakery<SettlementInfo>"
+c:\users\гаррик\onedrive\документы\диплом\core\core\ProvisionStructure.h(608): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\ProvisionStructure.h(477): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  c:\users\гаррик\onedrive\документы\диплом\core\core\ProvisionStructure.h(477): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  SettlementInfo.cpp(78): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Mill<SettlementInfo>"
+c:\users\гаррик\onedrive\документы\диплом\core\core\ProvisionStructure.h(477): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\ProvisionStructure.h(347): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  c:\users\гаррик\onedrive\документы\диплом\core\core\ProvisionStructure.h(347): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  SettlementInfo.cpp(77): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Field<SettlementInfo>"
+c:\users\гаррик\onedrive\документы\диплом\core\core\ProvisionStructure.h(347): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\ProvisionStructure.h(39): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  c:\users\гаррик\onedrive\документы\диплом\core\core\ProvisionStructure.h(39): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  SettlementInfo.cpp(76): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Farm<SettlementInfo>"
+c:\users\гаррик\onedrive\документы\диплом\core\core\ProvisionStructure.h(39): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\ProvisionStructure.h(170): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  c:\users\гаррик\onedrive\документы\диплом\core\core\ProvisionStructure.h(170): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  SettlementInfo.cpp(75): note: см. ссылку на создание экземпляров класса шаблон при компиляции "HunterHouse<SettlementInfo>"
+c:\users\гаррик\onedrive\документы\диплом\core\core\ProvisionStructure.h(170): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\EconomicStructure.h(680): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  c:\users\гаррик\onedrive\документы\диплом\core\core\EconomicStructure.h(680): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  SettlementInfo.cpp(72): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Mint<SettlementInfo>"
+c:\users\гаррик\onedrive\документы\диплом\core\core\EconomicStructure.h(680): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\EconomicStructure.h(547): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  c:\users\гаррик\onedrive\документы\диплом\core\core\EconomicStructure.h(547): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  SettlementInfo.cpp(71): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Armourer<SettlementInfo>"
+c:\users\гаррик\onedrive\документы\диплом\core\core\EconomicStructure.h(547): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\EconomicStructure.h(404): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  c:\users\гаррик\onedrive\документы\диплом\core\core\EconomicStructure.h(404): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  SettlementInfo.cpp(70): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Smeltery<SettlementInfo>"
+c:\users\гаррик\onedrive\документы\диплом\core\core\EconomicStructure.h(404): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\EconomicStructure.h(249): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  c:\users\гаррик\onedrive\документы\диплом\core\core\EconomicStructure.h(249): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  SettlementInfo.cpp(69): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Quarry<SettlementInfo>"
+c:\users\гаррик\onedrive\документы\диплом\core\core\EconomicStructure.h(249): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\EconomicStructure.h(89): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  c:\users\гаррик\onedrive\документы\диплом\core\core\EconomicStructure.h(89): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  SettlementInfo.cpp(68): note: см. ссылку на создание экземпляров класса шаблон при компиляции "WoodcutterHut<SettlementInfo>"
+c:\users\гаррик\onedrive\документы\диплом\core\core\EconomicStructure.h(89): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\Structure.h(68): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  c:\users\гаррик\onedrive\документы\диплом\core\core\EconomicStructure.h(152): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void TmpLoad<WoodcutterHut<SettlementInfo>>(ST *,std::string)"
+          with
+          [
+              ST=WoodcutterHut<SettlementInfo>
+          ]
+  c:\users\гаррик\onedrive\документы\диплом\core\core\EconomicStructure.h(151): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+c:\users\гаррик\onedrive\документы\диплом\core\core\Structure.h(69): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\гаррик\onedrive\документы\диплом\core\core\Block.h(88): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  c:\users\гаррик\onedrive\документы\диплом\core\core\SettlementInfo.h(167): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void Block::LocateEnviroment<Tree>(ENV *,Graphics *)"
+          with
+          [
+              ENV=Tree
+          ]
+  SettlementInfo.cpp(105): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void SetEnv<Tree>(std::list<Tree *,std::allocator<_Ty>>,Graphics *,Map *)"
+          with
+          [
+              _Ty=Tree *
+          ]
+c:\users\гаррик\onedrive\документы\диплом\core\core\Block.h(97): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  Создание кода
+  1 of 5083 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Core.vcxproj -> C:\Users\Гаррик\OneDrive\Документы\диплом\Core\Release\Core.exe
+  Core.vcxproj -> C:\Users\Гаррик\OneDrive\Документы\диплом\Core\Release\Core.pdb (Full PDB)
