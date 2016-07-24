@@ -4,49 +4,49 @@
 SpriteSheet::SpriteSheet(wchar_t* filename, Graphics* gfx)
 {
 	//Init 
-	this->gfx = gfx; // Ñîõðàíÿåì gfx ïàðàìåòð íà ïîòîì
-	bmp = NULL; //íà÷àëüíîå çíà÷åíèå ID2D1Bitmap
-	HRESULT hr; // HRESULT äëÿ ïðîâåðêè íà îøèáêè
+	this->gfx = gfx; // Ã‘Ã®ÃµÃ°Ã Ã­Ã¿Ã¥Ã¬ gfx Ã¯Ã Ã°Ã Ã¬Ã¥Ã²Ã° Ã­Ã  Ã¯Ã®Ã²Ã®Ã¬
+	bmp = NULL; //Ã­Ã Ã·Ã Ã«Ã¼Ã­Ã®Ã¥ Ã§Ã­Ã Ã·Ã¥Ã­Ã¨Ã¥ ID2D1Bitmap
+	HRESULT hr; // HRESULT Ã¤Ã«Ã¿ Ã¯Ã°Ã®Ã¢Ã¥Ã°ÃªÃ¨ Ã­Ã  Ã®Ã¸Ã¨Ã¡ÃªÃ¨
 
 	CoInitialize(NULL);
 
-	//ñîçäàåì WIC factory ñ ìîìîùüþ ìåòîäà CoCreateInstance
+	//Ã±Ã®Ã§Ã¤Ã Ã¥Ã¬ WIC factory Ã± Ã¬Ã®Ã¬Ã®Ã¹Ã¼Ã¾ Ã¬Ã¥Ã²Ã®Ã¤Ã  CoCreateInstance
 	IWICImagingFactory *wicFactory = NULL;
 	hr = CoCreateInstance(
-		CLSID_WICImagingFactory, //CLSID îáúåêòà, êîòîðûé ìû äåëàåì
-		NULL, //îáúåêò íå ñîçäà¸òñÿ êàê ÷àñòü ñîâîêóïíîñòè
+		CLSID_WICImagingFactory, //CLSID Ã®Ã¡ÃºÃ¥ÃªÃ²Ã , ÃªÃ®Ã²Ã®Ã°Ã»Ã© Ã¬Ã» Ã¤Ã¥Ã«Ã Ã¥Ã¬
+		NULL, //Ã®Ã¡ÃºÃ¥ÃªÃ² Ã­Ã¥ Ã±Ã®Ã§Ã¤Ã Â¸Ã²Ã±Ã¿ ÃªÃ Ãª Ã·Ã Ã±Ã²Ã¼ Ã±Ã®Ã¢Ã®ÃªÃ³Ã¯Ã­Ã®Ã±Ã²Ã¨
 		CLSCTX_INPROC_SERVER,
-		IID_IWICImagingFactory,//dll ðàáîòàåò â òîì æå ïðîöåññå, ÷òî è âûçûâàþùàÿ ôóíêöèÿ
-		(LPVOID*)&wicFactory); //óêàçàòåëü êîòîðûé áóäåò ñîäåðæàòü factory
+		IID_IWICImagingFactory,//dll Ã°Ã Ã¡Ã®Ã²Ã Ã¥Ã² Ã¢ Ã²Ã®Ã¬ Ã¦Ã¥ Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã±Ã¥, Ã·Ã²Ã® Ã¨ Ã¢Ã»Ã§Ã»Ã¢Ã Ã¾Ã¹Ã Ã¿ Ã´Ã³Ã­ÃªÃ¶Ã¨Ã¿
+		(LPVOID*)&wicFactory); //Ã³ÃªÃ Ã§Ã Ã²Ã¥Ã«Ã¼ ÃªÃ®Ã²Ã®Ã°Ã»Ã© Ã¡Ã³Ã¤Ã¥Ã² Ã±Ã®Ã¤Ã¥Ã°Ã¦Ã Ã²Ã¼ factory
 
-							   //èñïîëüçîâàíèå wicFactory äëÿ ñîçäàíèÿ äåêîäåðà
-							   //Ñîäàíèå äåêîäåðà
+							   //Ã¨Ã±Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã­Ã¨Ã¥ wicFactory Ã¤Ã«Ã¿ Ã±Ã®Ã§Ã¤Ã Ã­Ã¨Ã¿ Ã¤Ã¥ÃªÃ®Ã¤Ã¥Ã°Ã 
+							   //Ã‘Ã®Ã¤Ã Ã­Ã¨Ã¥ Ã¤Ã¥ÃªÃ®Ã¤Ã¥Ã°Ã 
 	IWICBitmapDecoder *wicDecoder = NULL;
 	hr = wicFactory->CreateDecoderFromFilename(
-		filename, //èìÿ ôàéëà
-		NULL, //ïðåäïî÷òèòåëüíûé ïîñòàâùèê
-		GENERIC_READ, //òîëüêî ÷òåíèå ôàéëà
-		WICDecodeMetadataCacheOnLoad, //êýø ïðè çàãðóçêå
-		&wicDecoder); //ññûëêà íà ñîçäàâàåìûé äåêîäåð
+		filename, //Ã¨Ã¬Ã¿ Ã´Ã Ã©Ã«Ã 
+		NULL, //Ã¯Ã°Ã¥Ã¤Ã¯Ã®Ã·Ã²Ã¨Ã²Ã¥Ã«Ã¼Ã­Ã»Ã© Ã¯Ã®Ã±Ã²Ã Ã¢Ã¹Ã¨Ãª
+		GENERIC_READ, //Ã²Ã®Ã«Ã¼ÃªÃ® Ã·Ã²Ã¥Ã­Ã¨Ã¥ Ã´Ã Ã©Ã«Ã 
+		WICDecodeMetadataCacheOnLoad, //ÃªÃ½Ã¸ Ã¯Ã°Ã¨ Ã§Ã Ã£Ã°Ã³Ã§ÃªÃ¥
+		&wicDecoder); //Ã±Ã±Ã»Ã«ÃªÃ  Ã­Ã  Ã±Ã®Ã§Ã¤Ã Ã¢Ã Ã¥Ã¬Ã»Ã© Ã¤Ã¥ÃªÃ®Ã¤Ã¥Ã°
 
-					  //÷òåíèå ôðåéìà èç èçîáðàæåíèÿ
+					  //Ã·Ã²Ã¥Ã­Ã¨Ã¥ Ã´Ã°Ã¥Ã©Ã¬Ã  Ã¨Ã§ Ã¨Ã§Ã®Ã¡Ã°Ã Ã¦Ã¥Ã­Ã¨Ã¿
 	IWICBitmapFrameDecode* wicFrame = NULL;
 	hr = wicDecoder->GetFrame(0, &wicFrame);
 
-	//ñîçäàíèå êîíâåðòåðà
+	//Ã±Ã®Ã§Ã¤Ã Ã­Ã¨Ã¥ ÃªÃ®Ã­Ã¢Ã¥Ã°Ã²Ã¥Ã°Ã 
 	IWICFormatConverter *wicConverter = NULL;
 	hr = wicFactory->CreateFormatConverter(&wicConverter);
 
-	//íàñòðîéêà íîâåðòåðà äëÿ ñîçäàíèÿ 32áèò BGRA bitmap
+	//Ã­Ã Ã±Ã²Ã°Ã®Ã©ÃªÃ  Ã­Ã®Ã¢Ã¥Ã°Ã²Ã¥Ã°Ã  Ã¤Ã«Ã¿ Ã±Ã®Ã§Ã¤Ã Ã­Ã¨Ã¿ 32Ã¡Ã¨Ã² BGRA bitmap
 	hr = wicConverter->Initialize(
-		wicFrame, //ôðåéì
-		GUID_WICPixelFormat32bppPBGRA, //ôîðìàò ïèêñåëåé
+		wicFrame, //Ã´Ã°Ã¥Ã©Ã¬
+		GUID_WICPixelFormat32bppPBGRA, //Ã´Ã®Ã°Ã¬Ã Ã² Ã¯Ã¨ÃªÃ±Ã¥Ã«Ã¥Ã©
 		WICBitmapDitherTypeNone,
-		NULL, //ïàëèòðà
-		0.0, //àëüôà
+		NULL, //Ã¯Ã Ã«Ã¨Ã²Ã°Ã 
+		0.0, //Ã Ã«Ã¼Ã´Ã 
 		WICBitmapPaletteTypeCustom);
 
-	//Èñïîëüçîâàíèå êîíâåðòåðà äëÿ ñîçäàíèÿ D2D1Bitmap
+	//ÃˆÃ±Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã­Ã¨Ã¥ ÃªÃ®Ã­Ã¢Ã¥Ã°Ã²Ã¥Ã°Ã  Ã¤Ã«Ã¿ Ã±Ã®Ã§Ã¤Ã Ã­Ã¨Ã¿ D2D1Bitmap
 	hr = gfx->renderTarget->CreateBitmapFromWicBitmap(
 		wicConverter,
 		NULL,
@@ -87,13 +87,13 @@ void SpriteSheet::Update()
 	}
 }
 
-//îòðèñîâêà âõîäÿùåãî èçîáðàæåíèÿ íà (0,0)
+//Ã®Ã²Ã°Ã¨Ã±Ã®Ã¢ÃªÃ  Ã¢ÃµÃ®Ã¤Ã¿Ã¹Ã¥Ã£Ã® Ã¨Ã§Ã®Ã¡Ã°Ã Ã¦Ã¥Ã­Ã¨Ã¿ Ã­Ã  (0,0)
 void SpriteSheet::Draw()
 {
 	gfx->GetRenderTarget()->DrawBitmap(
-		bmp, //bitmap
+		bmp,
 		D2D1::RectF(0.0f, 0.0f, bmp->GetSize().width, bmp->GetSize().height), //destination rect
-		1.0f, //opacity
+		1.0f, 
 		D2D1_BITMAP_INTERPOLATION_MODE::D2D1_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR,
 		D2D1::RectF(0.0f, 0.0f, bmp->GetSize().width, bmp->GetSize().height) //source rect
 	);
@@ -112,21 +112,16 @@ void SpriteSheet::Draw(int x, int y)
 		x, y,
 		x + spriteWidth, y + spriteHeight);
 
-	gfx->GetRenderTarget()->DrawBitmap(
-		bmp, //bitmap
-		dest,//destination rect
-		1.0f, //opacity
-		D2D1_BITMAP_INTERPOLATION_MODE::D2D1_BITMAP_INTERPOLATION_MODE_LINEAR,
-		src); //source rect
+	gfx->GetRenderTarget()->DrawBitmap(bmp, dest, 1.0f, D2D1_BITMAP_INTERPOLATION_MODE::D2D1_BITMAP_INTERPOLATION_MODE_LINEAR, src);
 
 }
 
 void SpriteSheet::DrawAnimation(float x, float y)
 {
 	gfx->GetRenderTarget()->DrawBitmap(
-		bmp, //bitmap
+		bmp, 
 		D2D1::RectF(x, y, x + spriteWidth, y + bmp->GetSize().height),
-		1.0f, //opacity
+		1.0f,
 		D2D1_BITMAP_INTERPOLATION_MODE::D2D1_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR,
 		D2D1::RectF((float)frame * spriteWidth, 0, (float)(frame * spriteWidth + spriteWidth), bmp->GetSize().height) //destination rect //source rect
 	);
